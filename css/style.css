@@ -1,4 +1,7 @@
+body {
+    background-color: slategray;
+  }
+
 .logo{
-    width: 20%;
-    border-radius: 50%;
-}
+    width: 15%;
+    }
