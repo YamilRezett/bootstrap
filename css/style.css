@@ -5,6 +5,25 @@ body {
 .logo{
     width: 15%;
     }
+
+.info{
+ transition: all 2s;
+}
+
+.info:hover {
+  transform:scale(2);
+}
+
+.foto{
+  transition: all 2s;
+  
+  }
+  
+.foto:hover {
+  transform: translate(20px, 20px);
+  opacity: 0.2;
+  }
+
     
 @media screen and (max-width: 496px) {
   .col{
@@ -17,9 +36,7 @@ body {
   body{
     background-color: rgba(132, 120, 120, 0.947);
       }
-  .info{
-    text-align: center;
-  }
+
   .cabeza{
     font-size:small;
   }
@@ -35,10 +52,23 @@ body {
 @media screen and (min-width: 969px) {
   body {
     background-color: rgba(132, 120, 120, 0.947);
+       }  
+  .circle1{
+    transition: all 0.5s linear;
+     } 
+  .circle2{
+      transition: all 1s linear;
+       } 
+  .circle3{
+        transition: all 1.5s linear;
+         } 
+  .clas:hover .circle1,
+  .clas:hover .circle2,
+  .clas:hover .circle3{
+     transform: translateX(100px);
   }
- .logofinal{
-   width: 15px;
- }
-      
+  
   }
+            
+        
   
