@@ -1,22 +1,44 @@
 body {
-    background-color: slategray;
+    background-color: rgb(131, 142, 154);
   }
 
 .logo{
     width: 15%;
     }
+    
+@media screen and (max-width: 496px) {
+  .col{
+    display: flex;
+    justify-content: center;
+  }
+  .parrafo {
+    display: none;
+  }
+  body{
+    background-color: rgba(132, 120, 120, 0.947);
+      }
+  .info{
+    text-align: center;
+  }
+  .cabeza{
+    font-size:small;
+  }
+  .final{
+    background-color: rgba(129, 120, 120, 0.947);
+  }
+  .fuera{
+    display: none;
+  }
+  
+  }
 
-/*// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
+@media screen and (min-width: 969px) {
+  body {
+    background-color: rgba(132, 120, 120, 0.947);
+  }
+ .logofinal{
+   width: 15px;
+ }
+      
+  }
+  
