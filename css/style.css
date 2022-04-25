@@ -1,3 +1,75 @@
+body {
+  background-color: rgb(131, 142, 154);
+}
 
+@media screen and (max-width: 496px) {
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .parrafo {
+    display: none;
+  }
+
+  body {
+    background-color: rgba(132, 120, 120, 0.947);
+  }
+
+  .cabeza {
+    font-size: small;
+  }
+
+  .final {
+    background-color: rgba(129, 120, 120, 0.947);
+  }
+
+  .fuera {
+    display: none;
+  }
+}
+@media screen and (min-width: 969px) {
+  body {
+    background-color: rgba(132, 120, 120, 0.947);
+  }
+
+  .circle1 {
+    transition: all 0.5s linear;
+  }
+
+  .circle2 {
+    transition: all 1s linear;
+  }
+
+  .circle3 {
+    transition: all 1.5s linear;
+  }
+
+  .clas:hover .circle1,
+.clas:hover .circle2,
+.clas:hover .circle3 {
+    transform: translateX(100px);
+  }
+}
+.info {
+  transition: all 2s;
+}
+
+.info:hover {
+  transform: scale(2);
+}
+
+.logo {
+  width: 15%;
+}
+
+.foto {
+  transition: all 2s;
+}
+
+.foto:hover {
+  transform: translate(20px, 20px);
+  opacity: 0.2;
+}
 
 /*# sourceMappingURL=style.css.map */
