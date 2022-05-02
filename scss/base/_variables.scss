@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(131, 142, 154);
+    background-image: url("/multimedia/imagen/fondo-gris.png");
   }
   @media screen and (max-width: 496px) {
     .col{
@@ -10,24 +10,24 @@ body {
       display: none;
     }
     body{
-      background-color: rgba(132, 120, 120, 0.947);
+      background-image: url("/multimedia/imagen/fondo-gris.png");
         }
   
     .cabeza{
       font-size:small;
     }
     .final{
-      background-color: rgba(129, 120, 120, 0.947);
+      background-image: url("/multimedia/imagen/fondo-gris.png");
     }
     .fuera{
       display: none;
     }
-    
+       
     }
   
   @media screen and (min-width: 969px) {
     body {
-      background-color: rgba(132, 120, 120, 0.947);
+      background-image: url("/multimedia/imagen/fondo-gris.png");
          }  
     .circle1{
       transition: all 0.5s linear;
@@ -43,5 +43,12 @@ body {
     .clas:hover .circle3{
        transform: translateX(100px);
     }
-    
+  
     }
+
+@media screen and (max-width: 786px) {
+  .baner{
+    height: 100vh;
+  }
+  
+}

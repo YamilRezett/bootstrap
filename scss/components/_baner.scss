@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
+
+.baner{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background:url("/multimedia/imagen/pexels-photo-1914982.jpeg") center/cover;
+    justify-content: center;
+  }
+
+.tipografia {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color:black ;
+    padding: 10px;
+}
+
+.tipografia1 {
+    color: rgba(10, 10, 10, 0.692) ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.whatsapp{
+    text-decoration: none;
+    color: white;
+    
+}

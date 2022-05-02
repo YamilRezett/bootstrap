@@ -1,3 +1,10 @@
 .logo{
     width: 15%;
     }
+
+.header {
+    background: rgba(rgb(14, 13, 13),0.2);
+    backdrop-filter:blur(30px);
+    position: fixed;   
+    border-bottom: 1px solid rgba(#040921,0.1);
+        }

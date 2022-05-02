@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
 body {
-  background-color: rgb(131, 142, 154);
+  background-image: url("/multimedia/imagen/fondo-gris.png");
 }
 
 @media screen and (max-width: 496px) {
@@ -13,7 +14,7 @@ body {
   }
 
   body {
-    background-color: rgba(132, 120, 120, 0.947);
+    background-image: url("/multimedia/imagen/fondo-gris.png");
   }
 
   .cabeza {
@@ -21,7 +22,7 @@ body {
   }
 
   .final {
-    background-color: rgba(129, 120, 120, 0.947);
+    background-image: url("/multimedia/imagen/fondo-gris.png");
   }
 
   .fuera {
@@ -30,7 +31,7 @@ body {
 }
 @media screen and (min-width: 969px) {
   body {
-    background-color: rgba(132, 120, 120, 0.947);
+    background-image: url("/multimedia/imagen/fondo-gris.png");
   }
 
   .circle1 {
@@ -51,6 +52,11 @@ body {
     transform: translateX(100px);
   }
 }
+@media screen and (max-width: 786px) {
+  .baner {
+    height: 100vh;
+  }
+}
 .info {
   transition: all 2s;
 }
@@ -63,6 +69,13 @@ body {
   width: 15%;
 }
 
+.header {
+  background: rgba(14, 13, 13, 0.2);
+  backdrop-filter: blur(30px);
+  position: fixed;
+  border-bottom: 1px solid rgba(4, 9, 33, 0.1);
+}
+
 .foto {
   transition: all 2s;
 }
@@ -70,6 +83,34 @@ body {
 .foto:hover {
   transform: translate(20px, 20px);
   opacity: 0.2;
+}
+
+.baner {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url("/multimedia/imagen/pexels-photo-1914982.jpeg") center/cover;
+  justify-content: center;
+}
+
+.tipografia {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: black;
+  padding: 10px;
+}
+
+.tipografia1 {
+  color: rgba(10, 10, 10, 0.692);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whatsapp {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
