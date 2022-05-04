@@ -1,7 +1,7 @@
 body {
-    background-image: url("/multimedia/imagen/fondo-gris.png");
-  }
-  @media screen and (max-width: 496px) {
+    background-image:$fondo;
+
+@media screen and (max-width: 496px) {
     .col{
       display: flex;
       justify-content: center;
@@ -9,25 +9,22 @@ body {
     .parrafo {
       display: none;
     }
-    body{
-      background-image: url("/multimedia/imagen/fondo-gris.png");
-        }
-  
     .cabeza{
       font-size:small;
     }
     .final{
-      background-image: url("/multimedia/imagen/fondo-gris.png");
+      background-image:$fondo;
     }
     .fuera{
       display: none;
     }
-       
-    }
+   }
+  }
+  
   
   @media screen and (min-width: 969px) {
     body {
-      background-image: url("/multimedia/imagen/fondo-gris.png");
+      background-image:$fondo;
          }  
     .circle1{
       transition: all 0.5s linear;
@@ -46,9 +43,3 @@ body {
   
     }
 
-@media screen and (max-width: 786px) {
-  .baner{
-    height: 100vh;
-  }
-  
-}

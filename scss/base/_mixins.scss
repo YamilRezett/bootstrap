@@ -1,0 +1,22 @@
+@mixin prefijos($valor){
+    transform: $valor;    
+}
+
+@mixin condiciones($colors) {
+      background-color: $colors;
+
+      @if $colors == orange {
+          background-image: url("/multimedia/imagen/fondo-azul.png");
+          margin: 2px;
+          padding: 3px;
+          text-align: center;
+          color: $colorW;
+    } @else {
+        background-image: url("/multimedia/imagen/fondo-celeste.png");
+        margin: 3px;
+        padding: 4px;
+        text-align: center;
+        color:$colorB;  
+    }
+    
+}
