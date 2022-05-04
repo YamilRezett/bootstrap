@@ -10,7 +10,21 @@
     opacity: 0.2;
     }
 
-    
+.sombra{
+  margin-top: 4%;
+  padding: 1% ;
+  border-radius: 20px;
+  box-shadow: 14px 14px 20px #14273a, -14px -14px 20px rgba(0, 0, 0, 0.623);
+       }
+
+.click{
+  text-decoration: none;
+  color:#14273a;
+  font-family: $fuente;
+  font-size:large;
+
+} 
+
 
   .from1 {
       margin: 2%;;
@@ -100,6 +114,5 @@
       box-shadow: none;
     }
     
-    
-  
+
 

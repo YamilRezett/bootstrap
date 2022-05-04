@@ -20,6 +20,10 @@ body {
   body .fuera {
     display: none;
   }
+  body .baner {
+    height: 50vh;
+    padding: 25% 0%;
+  }
 }
 
 @media screen and (min-width: 969px) {
@@ -43,6 +47,11 @@ body {
 .clas:hover .circle2,
 .clas:hover .circle3 {
     transform: translateX(100px);
+  }
+
+  .baner {
+    height: 100vh;
+    padding: 12% 0%;
   }
 }
 .info {
@@ -128,10 +137,10 @@ body {
 }
 
 .baner {
-  height: 75vh;
+  height: 100vh;
   width: 100%;
   background: url("/multimedia/imagen/pexels-photo-1914982.jpeg") center/cover;
-  padding: 50px 0px;
+  padding: 15% 0%;
 }
 
 .tipografia {
@@ -160,6 +169,20 @@ body {
 .foto:hover {
   transform: translate(20px, 20px);
   opacity: 0.2;
+}
+
+.sombra {
+  margin-top: 4%;
+  padding: 1%;
+  border-radius: 20px;
+  box-shadow: 14px 14px 20px #14273a, -14px -14px 20px rgba(0, 0, 0, 0.623);
+}
+
+.click {
+  text-decoration: none;
+  color: #14273a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 }
 
 .from1 {
