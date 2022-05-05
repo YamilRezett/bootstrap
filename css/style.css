@@ -53,6 +53,10 @@ body {
     height: 100vh;
     padding: 12% 0%;
   }
+
+  .nosotroslogo {
+    width: 15%;
+  }
 }
 .info {
   transition: all 2s;
@@ -128,12 +132,16 @@ body {
 }
 
 .nosotros {
-  background-color: orange;
-  background-image: url("/multimedia/imagen/fondo-azul.png");
+  background-color: blue;
+  background-image: url("/multimedia/imagen/fondo-gris.png");
   margin: 2px;
   padding: 3px;
-  text-align: center;
-  color: White;
+  color: Black;
+}
+.nosotros .nosotroslogo {
+  width: 25%;
+  box-shadow: 20px 20px 20px #14273a, -20px -14px 20px rgba(0, 0, 0, 0.623);
+  border-radius: 50%;
 }
 
 .baner {

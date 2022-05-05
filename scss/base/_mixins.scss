@@ -12,11 +12,15 @@
           text-align: center;
           color: $colorW;
     } @else {
-        background-image: url("/multimedia/imagen/fondo-celeste.png");
-        margin: 3px;
-        padding: 4px;
-        text-align: center;
+        background-image: url("/multimedia/imagen/fondo-gris.png");
+        margin: 2px;
+        padding: 3px;
         color:$colorB;  
+        .nosotroslogo{
+            width: 25%;
+            box-shadow: 20px 20px 20px #14273a, -20px -14px 20px rgba(0, 0, 0, 0.623);
+            border-radius: 50%;
+        }
     }
     
 }
