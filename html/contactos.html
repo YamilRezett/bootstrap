@@ -38,22 +38,28 @@
           </div>
         </div>
 
-        <section class="from1 w-100">
+        <form action="" method="post">
+           <section class="from1 w-100">
           <div class="from2 w-100">
             <div class="brand-logo"><img class="logo2 w-100" src="/multimedia/imagen/logo-removebg-preview.png" alt="logo"></div>
             <div class="brand-title w-100">SEGUROS</div>
             <div class="inpu w-100">
-              <label>Email</label>
-              <input class="w-100" type="email" placeholder="email@gmail.com"/>
-              <label class="w-100">Contacto</label>
-              <input class="w-100" type="email" placeholder="343-00000" />
-              <label class="w-100" >Consulta</label>
-              <input class="w-100" type="email" placeholder="¡Quiero info!" />
+
+              <label for="full-email">Email</label>
+              <input type="email" class="w-100" id="full-email" placeholder="Ej: nombre@gmail.com" name="email"/>
+
+              <label for="full-celular" class="w-100">Contacto</label>
+              <input type="number" class="w-100" id="full-celular" placeholder="Ej: 343-5555555" name="celular" />
+
+              <label for="full-consulta" class="w-100" >Consulta</label>
+              <input type="text" class="w-100" id="full-consulta" placeholder="¡Quiero info!" name="consulta" />
              
               <button class="boton" type="submit">ENVIAR</button>
             </div>
            </div>
         </section>
+        </form>
+       
 
         <!--no
           <div class="d-flex justify-content-center">
