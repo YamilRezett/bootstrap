@@ -1,7 +1,31 @@
 body {
     background-image:$fondo;
 
-@media screen and (max-width: 496px) {
+@media screen and (max-width: 300px) {
+  .col{
+    display: flex;
+    justify-content: center;
+  }
+  .parrafo {
+    display: none;
+  }
+  .cabeza{
+    font-size:small;
+  }
+  .final{
+    background-image:$fondo;
+  }
+  .fuera{
+    display: none;
+  }
+  .baner{
+    height: 70vh;
+    padding: 25% 0% ;
+            }
+
+}  
+
+@media screen and (max-width: 566px) {
     .col{
       display: flex;
       justify-content: center;
@@ -19,9 +43,8 @@ body {
       display: none;
     }
     .baner{
-      height: 50vh;
-      padding: 25% 0% ;
-        }
+      height: 55vh;
+              }
    }
   }
   

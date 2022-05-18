@@ -3,7 +3,7 @@
 body {
   background-image: url("/multimedia/imagen/fondo-gris.png");
 }
-@media screen and (max-width: 496px) {
+@media screen and (max-width: 300px) {
   body .col {
     display: flex;
     justify-content: center;
@@ -21,8 +21,29 @@ body {
     display: none;
   }
   body .baner {
-    height: 50vh;
+    height: 70vh;
     padding: 25% 0%;
+  }
+}
+@media screen and (max-width: 566px) {
+  body .col {
+    display: flex;
+    justify-content: center;
+  }
+  body .parrafo {
+    display: none;
+  }
+  body .cabeza {
+    font-size: small;
+  }
+  body .final {
+    background-image: url("/multimedia/imagen/fondo-gris.png");
+  }
+  body .fuera {
+    display: none;
+  }
+  body .baner {
+    height: 55vh;
   }
 }
 
